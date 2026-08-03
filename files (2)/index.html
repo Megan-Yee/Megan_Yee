@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Megan Yee</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Mondrian background grid (JS will populate) -->
+  <div class="mondrian-bg" id="mondrian-bg"></div>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <span class="nav-logo">MY</span>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="about">
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal">Seattle, WA · CS @ UW</p>
+      <h1 class="hero-name reveal delay-1">Megan<br /><em>Yee</em></h1>
+      <div class="hero-actions reveal delay-3">
+        <a href="#experience" class="btn-primary">See my work</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section" id="experience">
+    <h2 class="section-title reveal">Experience</h2>
+
+    <div class="timeline">
+
+      <article class="timeline-item reveal">
+        <div class="timeline-meta">
+          <span class="timeline-date">Incoming Winter 2027</span>
+          <span class="timeline-tag">Internship</span>
+        </div>
+        <div class="timeline-body">
+          <h3>Managed IT Consulting Intern</h3>
+          <p class="timeline-org">Plante Moran · Denver, CO</p>
+          <ul>
+            <li>Will communicate technical expertise to resolve client server hardware, software, and network issues.</li>
+            <li>Will document and resolve user requests while balancing incoming tickets in a fast-paced, client-facing environment.</li>
+            <li>Will engage in system migrations and upgrades while researching new technologies to improve client infrastructure.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="timeline-item reveal">
+        <div class="timeline-meta">
+          <span class="timeline-date">Jun 2026 – Sep 2026</span>
+          <span class="timeline-tag">Internship</span>
+        </div>
+        <div class="timeline-body">
+          <h3>Implementation Intern</h3>
+          <p class="timeline-org">FAST Enterprises · Sacramento, CA</p>
+          <ul>
+            <li>Collaborated with backend team to write and tune SQL queries for faster data retrieval across relational databases.</li>
+            <li>Consulted with agencies to understand their business needs and devise best implementation of FAST software.</li>
+            <li>Translated business requirements into customized software configurations using C#, VB.Net, and SQL.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="timeline-item reveal">
+        <div class="timeline-meta">
+          <span class="timeline-date">Sep 2024 – May 2025</span>
+          <span class="timeline-tag">Internship</span>
+        </div>
+        <div class="timeline-body">
+          <h3>IT Intern</h3>
+          <p class="timeline-org">Cherry Creek Innovation Campus · Aurora, CO</p>
+          <ul>
+            <li>Crosswalked state portals to track equipment purchased with Perkins funding across district high schools.</li>
+            <li>Developed an automated spreadsheet for Perkins equipment using TypeScript to autopopulate verification dates.</li>
+            <li>Catalogued 600+ pieces of Perkins equipment to create foundations for accurate inventory management.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="timeline-item reveal">
+        <div class="timeline-meta">
+          <span class="timeline-date">Jun 2021 – Jun 2025</span>
+          <span class="timeline-tag">Teaching</span>
+        </div>
+        <div class="timeline-body">
+          <h3>Coding Instructor</h3>
+          <p class="timeline-org">Steel City Codes / Camp Code for Girls · Denver, CO</p>
+          <ul>
+            <li>Taught Python fundamentals to 60+ students and guided them in building 4+ Android apps using Java and XML.</li>
+            <li>Collaborated with instructors to design projects and curriculum to reinforce computational thinking fundamentals.</li>
+            <li>Guided students through hands-on debugging and problem-solving through clear communication of complex ideas.</li>
+          </ul>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- PROJECTS & EXTRACURRICULARS -->
+  <section class="section section-alt" id="projects">
+    <h2 class="section-title reveal">Projects & Extracurriculars</h2>
+
+    <div class="cards-grid">
+
+      <div class="card reveal">
+        <div class="card-accent" style="background: var(--red)"></div>
+        <span class="card-date">Nov 2025</span>
+        <h3>Mondrian Art Generator</h3>
+        <p class="card-tech">Java</p>
+        <p>Built a Mondrian art generator using object-oriented programming, recursion, and randomized partitioning, with clear documentation for readability and maintainability.</p>
+      </div>
+
+      <div class="card reveal delay-1">
+        <div class="card-accent" style="background: var(--blue)"></div>
+        <span class="card-date">Nov 2025 – Present</span>
+        <h3>Alpha Kappa Psi — Rho Chapter</h3>
+        <p class="card-tech">Rho Innovate Committee</p>
+        <p>Built a website in HTML, CSS, and JavaScript for campus RSOs to organize team bonding dinners, and ran a quarterly fundraiser that raised over $1000 for Seattle Children's Hospital.</p>
+      </div>
+
+      <div class="card reveal delay-2">
+        <div class="card-accent" style="background: var(--yellow)"></div>
+        <span class="card-date">Sep 2025 – Present</span>
+        <h3>Chinese Student Association</h3>
+        <p class="card-tech">Executive Officer — Secretary & Marketing</p>
+        <p>Organized member meetings and created marketing content averaging 10k Instagram views/post. Volunteered 6+ hrs/week tabling and planning events for 500+ members.</p>
+      </div>
+
+      <div class="card reveal delay-3">
+        <div class="card-accent" style="background: var(--red)"></div>
+        <span class="card-date">Jul 2024</span>
+        <h3>CU Denver GenCyber Cybersecurity Camp</h3>
+        <p class="card-tech">University of Colorado Denver</p>
+        <p>Explored network security, cryptography, IoT security, and cyber threat analysis in this NSA/NSF-funded program, earning a Certificate of Achievement.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <h2 class="section-title reveal">Skills & Coursework</h2>
+
+    <div class="skills-layout">
+      <div class="skills-col reveal">
+        <h3 class="skills-heading">Technical</h3>
+        <div class="skill-tags">
+          <span class="tag">SQL</span>
+          <span class="tag">C#</span>
+          <span class="tag">Java</span>
+          <span class="tag">C</span>
+          <span class="tag">Python</span>
+          <span class="tag">TypeScript</span>
+          <span class="tag">HTML/CSS/JS</span>
+          <span class="tag">NumPy</span>
+          <span class="tag">Pandas</span>
+          <span class="tag">Matplotlib</span>
+          <span class="tag">Blender</span>
+          <span class="tag">Microsoft Office</span>
+          <span class="tag">Google Suite</span>
+        </div>
+      </div>
+
+      <div class="skills-col reveal delay-1">
+        <h3 class="skills-heading">Coursework</h3>
+        <div class="skill-tags">
+          <span class="tag tag-outline">Hardware/Software Interface</span>
+          <span class="tag tag-outline">Foundations of Computing</span>
+          <span class="tag tag-outline">Beginning Scientific Computing</span>
+        </div>
+      </div>
+
+      <div class="skills-col reveal delay-2">
+        <h3 class="skills-heading">General</h3>
+        <div class="skill-tags">
+          <span class="tag tag-soft">Communication</span>
+          <span class="tag tag-soft">Curiosity</span>
+          <span class="tag tag-soft">Organization</span>
+          <span class="tag tag-soft">Time Management</span>
+          <span class="tag tag-soft">Attention to Detail</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section-contact" id="contact">
+    <div class="contact-inner reveal">
+      <h2>Reach out!</h2>
+      <p>I'm currently open to internships, research opportunities, and interesting conversations.</p>
+      <div class="contact-links">
+        <a href="mailto:meganyee@uw.edu" class="contact-link">meganyee@uw.edu</a>
+        <a href="https://linkedin.com/in/megan-yee–/" target="_blank" class="contact-link">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
